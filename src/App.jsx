@@ -1,8 +1,7 @@
-import { useState } from 'react'
-import './App.css'
-import Dishes from './Components/DishesComponents/Dishes';
-import AllCategories from './Components/Filter/AllCategories';
-import Cart from './Components/Cart/Cart';
+import "./App.css";
+import Cart from "./Components/Cart/Cart";
+import Dishes from "./Components/DishesComponents/Dishes";
+import AllCategories from "./Components/Filter/AllCategories";
 
 function App() {
   return (

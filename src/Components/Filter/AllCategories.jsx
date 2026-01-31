@@ -1,12 +1,16 @@
+import React from "react";
 import Filter from "./Filter";
 
-const AllCategories = () => {
+function AllCategories() {
   return (
     <div>
       <h1>What kind of food do you like?</h1>
-      {["SEAFOOD", "ITALIAN", "APPETIZERS", "SALADS", "ALL"].map(category => <Filter category={category}/>
-      )}
+      {["SEAFOOD", "ITALIAN", "APPETIZERS", "SALADS", "ALL"].map((category) => (
+        <Filter category={category} />
+      ))}
+      <Filter />
     </div>
   );
-};
+}
+
 export default AllCategories;
