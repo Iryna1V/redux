@@ -1,18 +1,38 @@
-# React + Vite
+# About Add Dish To Cart
+Add Dish To Cart application was built with React Redux and Redux Toolkit. Using Add Dish To Cart application, the clients can choose a dish and its quantity and order a dish by adding it to the cart. And the price changes automatically. The add-to-cart functionality using the example of ordering dishes in a restaurant.
+
 <img width="2297" height="1553" alt="Rectangle (11)" src="https://github.com/user-attachments/assets/f413ada4-864b-4111-873c-142ebd78bc1e" />
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Functionalities:
+- The app is built with advanced React concepts and hooks implementation.
+- Redux Toolkit
+- Simple user interface.
+- Responsive design.
+  
+# Tech stack:
+- React 19.0
+- Redux Toolkit
+- CSS
+  
+# Run the application:
+Install dependencies:
 
-Currently, two official plugins are available:
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install react react-redux
 
-## React Compiler
+npm install @reduxjs/toolkit 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Start the development server:
 
-## Expanding the ESLint configuration
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Then open http://localhost:3000 to view it in your browser.
+
+# Build for production:
+To create an optimized production build, run:
+
+npm run build
+
+The build will be generated in the 'dist' (or 'build') folder ready for deployment.
